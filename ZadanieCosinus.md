@@ -18,11 +18,11 @@ przez użytkownika.
 ```html javascript
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript">
         function Cwiczenie2() {
+		
             var ile = document.getElementById("ileCosinusow").value;
             var cosinus = "cosinus";
             var cosOutput = "";
@@ -32,6 +32,7 @@ przez użytkownika.
         }
 
         function Cwiczenie3() {
+		
             var x = parseInt(document.getElementById("Liczba1").value);
             var y = parseInt(document.getElementById("Liczba2").value);
             var LiczbaOutput = "";
@@ -44,6 +45,7 @@ przez użytkownika.
         }
 
         function Cwiczenie4() {
+		
             var x = parseInt(document.getElementById("Liczba1Cw4").value);
             var y = parseInt(document.getElementById("Liczba2Cw4").value);
             var IleLiczb = x - y;
@@ -58,9 +60,11 @@ przez użytkownika.
             document.getElementById("LiczbyCw4").innerHTML = LiczbaOutput;
         }
         window.onload = function Cwiczenie5() {
+		
             var cos = "cosinus";
             for (var i = 1; i <= 10; i++)
                 document.getElementById("cosinusCw1").innerHTML += cos + "<br / > ";
+				
             var obrazki = ["tlo11.gif", "tlo12.gif", "tlo13.gif",
                 "tlo14.gif", "tlo15.gif", "tlo16.gif", "tlo17.gif", "tlo18.gif", "tlo18.gif"
             ];
@@ -71,6 +75,7 @@ przez użytkownika.
         }
 
         function Cwiczenie6() {
+		
             function CzyPierwsza(n) {
                 if (n == 2) return 1;
                 else if (n <= 1 || n % 2 == 0) return 0;
@@ -227,6 +232,5 @@ liczbę"></input>
         </section>
     </div>
 </body>
-
 </html>
 ```
