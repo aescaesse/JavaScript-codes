@@ -15,7 +15,7 @@ tlo11.gif ÷ tlo19.gif – wyświetl wszystkie z użyciem pętli.
 6.Wyświetl liczby pierwsze zawarte w przedziale od minimum do maksimum podanego
 przez użytkownika. 
 ```
-```javascript
+```html+javascript
 <!DOCTYPE html>
 <html lang="pl">
 
