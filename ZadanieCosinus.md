@@ -16,8 +16,9 @@ tlo11.gif ÷ tlo19.gif – wyświetl wszystkie z użyciem pętli.
 przez użytkownika. 
 ```
 <img src="Zdjecia/cosinus.PNG" width=400 height=150>
-``` html javascript
-<!DOCTYPE html>
+``` html
+
+<!doctype html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
