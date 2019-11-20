@@ -17,7 +17,7 @@ przez użytkownika.
 ```
 <img src="Zdjecia/cosinus.PNG" width=720 height=250>
 
-```javascript
+```html
 <!doctype html>
 <html lang="pl">
 <head>
