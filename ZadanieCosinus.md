@@ -15,9 +15,9 @@ tlo11.gif ÷ tlo19.gif – wyświetl wszystkie z użyciem pętli.
 6.Wyświetl liczby pierwsze zawarte w przedziale od minimum do maksimum podanego
 przez użytkownika. 
 ```
-<img src="Zdjecia/cosinus.PNG" width=400 height=150>
+<img src="Zdjecia/cosinus.PNG" width=720 height=250>
 
-```
+```javascript
 <!doctype html>
 <html lang="pl">
 <head>
