@@ -16,8 +16,7 @@ tlo11.gif ÷ tlo19.gif – wyświetl wszystkie z użyciem pętli.
 przez użytkownika. 
 ```
 <img src="Zdjecia/cosinus.PNG" width=400 height=150>
-``` html
-
+```html
 <!doctype html>
 <html lang="pl">
 <head>
@@ -34,7 +33,6 @@ przez użytkownika.
             for (var i = 0; i < 9; i++)
                 document.getElementById("ObrazkiCw5").innerHTML += '<img width = 100 height = 100 src = "'+obrazki[i]+'" /> ';
         }
-		
         function Cwiczenie2() {
 		
             var ile = document.getElementById("ileCosinusow").value;
@@ -44,7 +42,6 @@ przez użytkownika.
                 cosOutput += cosinus + "<br />";
             document.getElementById("cosinusCw2").innerHTML = cosOutput;
         }
-
         function Cwiczenie3() {
 		
             var x = parseInt(document.getElementById("Liczba1").value);
@@ -56,7 +53,6 @@ przez użytkownika.
                 document.getElementById("LiczbyCw3").innerHTML = LiczbaOutput;
             } else document.getElementById("LiczbyCw3").innerHTML = "Pierwsza liczba musi być mniejsza!";
         }
-
         function Cwiczenie4() {
 		
             var x = parseInt(document.getElementById("Liczba1Cw4").value);
@@ -72,7 +68,6 @@ przez użytkownika.
                     LiczbaOutput += i + " ";
             document.getElementById("LiczbyCw4").innerHTML = LiczbaOutput;
         }
-
         function Cwiczenie6() {
 		
             function CzyPierwsza(n) {
@@ -105,18 +100,15 @@ przez użytkownika.
     body {
         background-color: rgba(25, 24, 24, 0.89);
     }
-    
     * {
         margin: 0;
         padding: 0;
     }
-    
     .kontener {
         margin: auto;
         width: 70%;
         margin-top:2%;
     }
-    
     .cwiczenie {
         padding: 10px;
         background-color: rgba(2, 2, 2, 0.3);
@@ -124,24 +116,20 @@ przez użytkownika.
         color: white;
         margin-top: 5px;
     }
-    
     .naglowek {
         text-align: center;
         letter-spacing: 5px;
         font-family: Courier;
         padding: 5px;
     }
-    
     .form {
         margin-left: 10%;
         padding: 5px;
     }
-    
     output {
         padding: 2px;
         font-size: 20px;
     }
-    
     input {
         border: none;
         background-color: rgba(25, 24, 24, 0.89);
@@ -150,7 +138,6 @@ przez użytkownika.
         text-align: center;
         color: white;
     }
-    
     button {
         border: none;
         background-color: rgba(25, 24, 24, 0.89);
@@ -161,7 +148,6 @@ przez użytkownika.
         color: grey;
     }
 </style>
-
 </head>
 <body>
     <div class="kontener">
@@ -231,5 +217,4 @@ przez użytkownika.
     </div>
 </body>
 </html>
-
 ```
